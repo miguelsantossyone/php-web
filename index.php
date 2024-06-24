@@ -10,7 +10,7 @@ $color = random_color();
 
 // Output the HTML with inline CSS to change the color dynamically
 echo '<div style="color: ' . $color . '">';
-echo 'Hello ' .$_ENV["USER"] . '!';
+echo 'Hello ' .$_ENV["NAME"] . '!';
 echo '</div>';
 
 ?>
